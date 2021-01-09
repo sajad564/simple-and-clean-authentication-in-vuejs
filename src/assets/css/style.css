@@ -1,0 +1,13 @@
+* {
+    margin : 0 ;
+    padding : 0 ;
+   border : none ;
+   outline : none ;
+   text-decoration: none;
+}
+:root {
+    --green  : #67BE4D ; 
+    --darkgreen : #00B241 ; 
+    --gray : #F2F2F2 ; 
+    --darkgray : #CDCDCD ;
+}

@@ -3,15 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
-let tokenInfo = {
-  access : localStorage.getItem('access_token')  , 
-  refresh : localStorage.getItem('refresh_token')
-}
-store.commit("auth/UPDATE_TOKEN" , tokenInfo)
-require('./subscribers')
-require('./interceptors') 
+import './assets/css/style.css'
+import initilizeService from './services/Initilize'
+initilizeService.InitilizeAuth() ;
 window.axios = axios
-axios.defaults.baseURL = "http://localhost:5000/api/"
+require('./interceptors') 
+
 
 Vue.config.productionTip = false
 
