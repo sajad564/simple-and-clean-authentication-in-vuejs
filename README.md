@@ -27,8 +27,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 1. this project is just a boilerplate for authentication in vuejs (best practice)
 2. i think you can use it for any type of project that you have (it's just a boilerplate)
 3. this project also support refresh token(thanks to axios intercepotrs )
-4. you should change some think :
-* for example your end point name our your base url maybe  difference(also type of your response depends on your back end)
+4. you should change some things :
+* for example your end point name and your base url maybe  difference(also type of your response depends on your back end)
 * example(this is my response shape(in the backend) for getting user information) :
 ```json
 {
@@ -39,7 +39,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         }
     } , 
     "errors" : "" , 
-    "status" : "400"
+    "status" : "200"
 }
 ```
 but maybe you have some thing like below one :
@@ -62,6 +62,6 @@ but your end point maybe is  : localhost:5000/user/information
 * as i said you should change  :
 1. base url
 2. backend end point route
-3. response and request shape
-good luck :)
+3. response and request shape . 
+* good luck :)
 
