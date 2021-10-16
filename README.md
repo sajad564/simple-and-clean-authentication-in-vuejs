@@ -46,7 +46,7 @@ but maybe you have some thing like below one :
 
 ```json
 {
-    "username" : "sajad564"
+    "username" : "sajad564" , 
     "photo" : "sajad564.jpeg"
 }
 ```
